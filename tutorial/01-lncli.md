@@ -604,7 +604,7 @@ btcctl --simnet --rpcuser=kek --rpcpass=kek generate 1
 
 # Check that Bob's on-chain balance was credited by his settled amount in the
 # channel. Recall that Bob previously had no on-chain Bitcoin:
-alice$ lncli-bob walletbalance
+bob$ lncli-bob walletbalance
 {
     "total_balance": "20001",
     "confirmed_balance": "20001",
